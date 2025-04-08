@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Assistant", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 2vh;
+  padding-inline: 4vw;
+  border-bottom: 0.05rem solid #eaeaea;
+  background-color: #fff;
+  gap: 1.5vh;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  flex: 1 1 55%;
+  gap: 2vw;
+  min-width: 250px;
+}
+
+.logo {
+  height: 6vh;
+  width: 6vh;
+  flex-shrink: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2vw;
+  padding-inline-start: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #282c3f;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.nav-links li a:hover {
+  color: #ff3f6c;
+}
+
+.new {
+  color: #ff3f6c;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1 1 40%;
+  gap: 1.5vw;
+  justify-content: flex-end;
+  min-width: 250px;
+}
+
+.search-box {
+  flex: 1 1 50%;
+  padding: 0.6em 1em;
+  font-size: 0.95rem;
+  border: 0.06em solid #ccc;
+  border-radius: 0.3em;
+  min-width: 140px;
+}
+
+.icon-container {
+  display: flex;
+  gap: 1.5vw;
+  flex-shrink: 0;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #333;
+  flex: 0 0 auto;
+}
+
+.icon img {
+  height: 3vh;
+  width: auto;
+  margin-block-end: 0.2em;
+}
+
+.sale-timer {
+  background-color: #e9f0ff;
+  text-align: center;
+  padding-block: 2vh;
+}
+
+.sale-timer p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.time {
+  font-weight: 700;
+  color: #ff3f6c;
+}
